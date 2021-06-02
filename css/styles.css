@@ -155,10 +155,6 @@ button {
 }
 
 
-.article-grid-container {
-	/*margin-top: 30px;*/
-}
-
 .article-grid-main-card {
 	padding: 40px 15px;
 }
@@ -179,6 +175,7 @@ h3 {
 .article-card-container {
 	border: var(--border);
 	padding: 15px;
+	margin-top: 50px;
 }
 
 .article-card {
@@ -194,6 +191,34 @@ h3 {
 }
 
 
+/*footer*/
+
+footer {
+	border: var(--border);
+}
+
+.footer-navlinks {
+	border: var(--border);
+	padding: 40px 10px 60px 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.nav-box {
+	padding: 10px;
+	border: var(--border);
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.nav-box a {
+	border: var(--border);
+	padding: 10px;
+}
 
 
 
@@ -203,7 +228,8 @@ h3 {
 
 
 
-/*
+
+
 
 
 @media (min-width: 600px){
@@ -214,7 +240,7 @@ h3 {
 	margin: auto;
 }
 
-}*/
+}
 
 
 
