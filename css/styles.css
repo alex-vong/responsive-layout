@@ -12,6 +12,7 @@ html {
 	--purple:#db9fc7;
 	--orange: #fdcc9a;
 	--red: #f69799;
+	--wheat: #fbf1e2;
 	--border: 4px solid black;
 
 }
@@ -109,6 +110,10 @@ picture img {
 
 .cta-red {
 	background-color: var(--red);
+}
+
+.cta-wheat {
+	background-color: var(--wheat);
 }
 
 .cta-module {
