@@ -1,0 +1,27 @@
+
+/*site header*/
+.site-header {
+	background-color: var(--green);
+}
+
+nav-bar {
+	display: block;
+	border: 4px solid black;
+}
+
+nav {
+	border: 3px solid black;
+	display: flex;
+}
+
+nav a {
+	border: 2px solid black;
+}
+
+nav-bar, nav, nav a {
+	padding: 10px;
+}
+
+.nav-menu a:first-child {
+	text-transform: uppercase;
+}

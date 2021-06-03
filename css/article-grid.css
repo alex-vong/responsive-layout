@@ -1,0 +1,48 @@
+/*article grid*/
+
+.article-grid {
+
+	background-color: var(--orange);
+	padding: 60px 0;
+
+}
+
+.article-grid section, article-card-container {
+	border: var(--border);
+}
+
+
+.article-grid-main-card {
+	padding: 40px 15px;
+}
+
+.article-grid-main-card * {
+	border: var(--border);
+	padding: 15px;
+	margin: 25px 0;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 900;
+	border: var(--border);
+}
+
+
+.article-card-container {
+	border: var(--border);
+	padding: 15px;
+	margin-top: 50px;
+}
+
+.article-card {
+	border: var(--border);
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.article-card h3, .article-card p  {
+	margin-top: 10px;
+	padding: 10px;
+
+}

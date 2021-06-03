@@ -1,0 +1,40 @@
+
+
+/*call to action module*/
+
+.call-to-action {
+	background-color: var(--purple);
+	border: var(--border);
+}
+
+.cta-red {
+	background-color: var(--red);
+}
+
+.cta-wheat {
+	background-color: var(--wheat);
+}
+
+.cta-module {
+	padding: 40px 10px;
+}
+
+h2{
+	border: var(--border);
+	
+}
+
+h2, .cta-module p, button {
+	padding: 15px;
+}
+
+button {
+	text-transform: uppercase;
+	padding: 20px;
+	font-weight: 900;
+	font-size: 18px;
+	color: #fff;
+	background-color: #000;
+	border: none;
+	text-decoration: underline;
+}
