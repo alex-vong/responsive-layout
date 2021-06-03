@@ -1,0 +1,41 @@
+.hero {
+	
+	background-color: var(--cyan);
+}
+
+.hero-image {
+	border: var(--border);
+
+}
+
+picture {
+	display: block;
+	border: var(--border);
+	margin-top: 30px;
+}
+
+picture img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: var(--border);
+	margin: auto;
+
+}
+
+.hero-text {
+	border: var(--border);
+}
+
+.header, .supporting-text {
+	border: var(--border);
+	margin: 20px 0;
+}
+
+.header {
+	font-size: 30px;
+}
+
+.hero-image, picture, picture img, .hero-text, .header, .supporting-text {
+	padding: 10px;
+}
