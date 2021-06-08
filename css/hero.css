@@ -1,11 +1,9 @@
 .hero {
-	
 	background-color: var(--cyan);
 }
 
 .hero-image {
 	border: var(--border);
-
 }
 
 picture {
@@ -20,7 +18,6 @@ picture img {
 	width: 100%;
 	border: var(--border);
 	margin: auto;
-
 }
 
 .hero-text {
@@ -39,3 +36,4 @@ picture img {
 .hero-image, picture, picture img, .hero-text, .header, .supporting-text {
 	padding: 10px;
 }
+
