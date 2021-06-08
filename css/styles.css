@@ -31,6 +31,21 @@ p.supporting-text {
 }
 
 
+.button {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 20px;
+	font-weight: 900;
+	font-size: 18px;
+	color: #fff;
+	background-color: #000;
+	border: none;
+	text-decoration: underline;
+}
+
+
+
+
 @media (max-width: 300px) {
 	.nav-menu {
 		display: flex;
@@ -38,7 +53,6 @@ p.supporting-text {
 
 	}
 }
-
 
 
 @media (min-width: 600px){

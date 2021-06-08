@@ -1,12 +1,11 @@
 <main class="hero">
 	<div class="inner-column">
+		
 		<section class="hero-image">
 			<picture>
-				<!-- <img src="https://peprojects.dev/images/square.jpg" alt="" -->
-				<img src="images/cody-gray.svg" alt="totoro"
-
-				>
+				<img src="images/cody-gray.svg" alt="image-of-cody">
 			</picture>
+
 			<section class="hero-text">
 				<div class="header">
 					<h1>Hello! This is a &#39;diptych&#39;</h1>
@@ -17,5 +16,6 @@
 				</div>
 			</section>
 		</section>
+		
 	</div>
 </main>
