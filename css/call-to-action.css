@@ -27,14 +27,3 @@ h2{
 h2, .cta-module p, button {
 	padding: 15px;
 }
-
-button {
-	text-transform: uppercase;
-	padding: 20px;
-	font-weight: 900;
-	font-size: 18px;
-	color: #fff;
-	background-color: #000;
-	border: none;
-	text-decoration: underline;
-}
