@@ -1,6 +1,6 @@
 <header class="site-header">
 	<div class="inner-column">
-		<nav-bar>
+		<masthead>
 			<nav class="nav-menu">
 				<a href="#">Logo</a>
 				<a href="#">Some page</a>
@@ -10,6 +10,6 @@
 			<nav class="sign-in">
 				<a href="#">Sign-In</a>
 			</nav>
-		</nav-bar>
+		</masthead>
 	</div>
 </header>
