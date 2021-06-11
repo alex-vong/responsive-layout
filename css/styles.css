@@ -1,14 +1,12 @@
+@import url('meyers-reset.css');
+@import url('reset.css');
+
 @import url('hero.css');
 @import url('site-header.css');
 @import url('call-to-action.css');
 @import url('article-grid.css');
 @import url('footer.css');
 
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
 
 html {
 	--cyan: #aadee9;
@@ -56,7 +54,7 @@ p.supporting-text {
 
 
 @media (min-width: 600px){
-	nav-bar {
+	masthead {
 		display: flex;
 		justify-content: space-between;
 	}
@@ -95,16 +93,29 @@ p.supporting-text {
 
 	.article-card-container {
 		padding: 0;
-		display: flex;
+/*		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		flex-direction: row;*/
+
+
+	 	display: grid;
+	  	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	 	 /*grid-gap: 10px;*/
 
 	}
 
 	.article-card-container .article-card {
-		width: calc(50% - 20px);
+		/*width: calc(50% - 20px);*/
 		margin: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 
+	}
+
+	.article-card a {
+		width: max-content;
 	}
 
 }

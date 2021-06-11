@@ -5,10 +5,9 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta
-		name="description"
-		content="Ivy’s Super Ultra Responsive Layout Challenge!"
-	/>
+
+	<title>Responsive Layout Challenge</title>
+
 	<meta
 		name="og:description"
 		content="Ivy’s Super Ultra Responsive Layout Challenge!"
@@ -18,5 +17,5 @@
 	<link rel="shortcut icon" type="image/jpg" href="images/alex.png" />
 
 	<link rel="stylesheet" href="css/styles.css" />
-	<title>Responsive Layout Challenge</title>
+
 </head>
